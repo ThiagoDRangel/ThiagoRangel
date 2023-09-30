@@ -1,0 +1,80 @@
+.user-container {
+  background-color: var(--color-bg-quaternary);
+  border-radius: 10px;
+  margin: 30px 20px;
+  padding: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+img {
+  width: 200px;
+}
+
+.images-contact {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.personal-infos {
+  background-color: var(--color-bg-tertiary);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.contact-container li {
+  background-color: var(--color-bg-senary);
+  border-radius: 50%;
+  padding: 15px 0px 0px 17px;
+  width: 130px;
+}
+
+.contact-container li:hover {
+  background-color: var(--color-bg-quinary);
+  cursor: pointer;
+}
+
+.background-container {
+  background-color: var(--color-bg-tertiary);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.strong {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+span li {
+  color: var(--color-font-primary);
+  background-color: var(--color-bg-quaternary);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+ul li:hover {
+  font-weight: 700;
+}
+
+@media (max-width: 550px) {
+
+}

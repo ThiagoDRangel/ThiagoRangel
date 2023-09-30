@@ -1,0 +1,35 @@
+.technologies-list ul {
+  margin-left: 30px;
+  margin-top: 50px;
+  transform: translateY(-50%);
+}
+
+.technologies-list li {
+  display: inline-block;
+  margin-right: 20px;
+  animation: moveTechnologies 5s linear infinite;
+  position: relative;
+}
+
+@keyframes moveTechnologies {
+  0% {
+    left: 100%;
+    opacity: 0.4;
+  }
+  25% {
+    left: 0;
+    opacity: 0.6;
+  }
+  50% {
+    left: 0;
+    opacity: 0.8;
+  }
+  75% {
+    left: 0;
+    opacity: 1;
+  }
+  100% {
+    left: -100%;
+    font-weight: 400;
+  }
+}
