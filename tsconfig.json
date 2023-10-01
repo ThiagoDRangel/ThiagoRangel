@@ -5,6 +5,7 @@
     "jsx": "react-jsx",
     "strict": true,
     "esModuleInterop": true,
+    "allowImportingTsExtensions":true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "allowJs": false,
