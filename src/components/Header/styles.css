@@ -1,5 +1,5 @@
 .header-container {
-  background-color: var(--color-bg-secondary);
+  background: linear-gradient(to bottom, var(--color-bg-primary), var(--color-bg-secondary), var(--color-bg-primary));
   display: flex;
   height: 100px;
   justify-content: space-around;

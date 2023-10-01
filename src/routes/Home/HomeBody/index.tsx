@@ -1,5 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faHtml5, faJs, faPython, faJava, faDocker, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Footer from '../../../components/Footer';
+import avatarFoto from '../../../assets/images/avatarFoto.png';
+import frontend from '../../../assets/images/frontend.jpg';
+import backend from '../../../assets/images/backend.jpg';
 import './styles.css';
 
 
@@ -10,85 +12,38 @@ function HomeBody() {
         <h1>Seja bem vindo!</h1>
         <div className="title"><p>Soluções para negócios e empresas</p></div>
       </section>
-      <section className="new-infos">
-        <p><strong>Soon...</strong></p>
-      </section>
-      <div className="technologies-list">
-        <ul className="icon-list">
-          <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faReact}
-                size="4x"
-                spin
-                fixedWidth
-                pull="left"
-              />
-            </div>
-          </li>
-          <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faGithub}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
-          </li>
-          <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faJs}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
-          </li>
-          <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faJava}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
-          </li>
-          <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faHtml5}
-                size="4x"
-                fixedWidth
-                pull="left"
-                spinReverse
-              />
-            </div>
-          </li>
-          <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faPython}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
-          </li>
-          <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faDocker}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
-          </li>
+      <section className="container-first">
+        <ul>
+          <p>Desenvolvedor Full-stack</p>
+          <li>Domínio das principais tecnologias do mercado.</li>
+          <li>Proficiência em metodologias ágeis.</li>
+          <li>Excelência na produção de código de alta qualidade.</li>
+          <li>Habilidades interpessoais sólidas.</li>
+          <li>Resolução eficaz de problemas complexos.</li>
+          <li>Comunicação clara e eficaz.</li>
+          <li>Pensamento crítico e analítico.</li>
         </ul>
-      </div>
+        <img src={avatarFoto} alt="avatar foto" />
+      </section>
+      <section className="container-second">
+        <h3>Front-End</h3>
+        <div className="text-container">
+          <a href="https://dscommerce-thiagodrangel.netlify.app/" target="_blank">
+            <img src={frontend} alt="front-end" className="img-frontend" />
+          </a>
+            <p>Principais projetos</p>
+          </div>
+      </section>
+      <section className="container-third">
+        <h3>Back-End</h3>
+        <div className="text-container">
+          <a href="https://github.com/ThiagoDRangel">
+            <img src={backend} alt="back-end" className="img-backend" />
+          </a>
+          <p>Principais projetos</p>
+          </div>
+      </section>
+      <Footer />
     </main>
   );
 }

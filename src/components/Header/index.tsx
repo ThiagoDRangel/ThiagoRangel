@@ -30,7 +30,7 @@ function Header() {
             src={profileIcon}
           />
         </Link>
-        <Link to="/projects">
+        <Link to="/home/projects">
           <img
             alt="Project Icon"
             className="profile-icon"
