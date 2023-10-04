@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function HeaderMenu() {
@@ -19,7 +20,9 @@ function HeaderMenu() {
           </div>
           <ul className={`menu ${menuOpen ? 'open' : ''}`}>
             <li><a href="/">HOME</a></li>
-            <li><a href="/sobre">ABOUT</a></li>
+            <Link to="profile">
+              <li><a href="profile">ABOUT</a></li>
+            </Link>
             <li><a href="/contato">FRONTEND</a></li>
             <li><a href="/contato">BACKEND</a></li>
             <li className="text-color"><a href="/contato">GITHUB</a></li>
