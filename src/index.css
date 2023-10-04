@@ -1,25 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-:root {
-    --color-bg-primary: #011F26;
-    --color-bg-secondary: #035949;
-    --color-bg-tertiary: #2A5936;
-    --color-bg-quaternary: #768C6C;
-    --color-bg-quinary: #D9D9D9;
-    --color-bg-senary: #FFFFFF;
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200;400;500;700&display=swap');
 
-    --color-font-primary: #011F26;
-    --color-font-secondary: #035949;
-    --color-font-tertiary: #2A5936;
-    --color-font-quaternary: #768C6C;
-    --color-font-quinary: #000000;
-    --color-font-senary: #FFFFFF;
+:root {
+    --color-primary: #a460f9;
+    --color-secondary: #181818;
+    --color-tertiary: #ffffff;
+    --color-quaternary: #252525;
+    --color-quinary: #f1f1f1;
+    --color-senary: #8c6eca;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Krub', sans-serif;
 }
 
 a,

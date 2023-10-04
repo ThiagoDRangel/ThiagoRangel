@@ -1,4 +1,3 @@
-import projects from "../../../../assets/images/projects.jpg";
 import './styles.css';
 
 function Projects() {
@@ -7,7 +6,7 @@ function Projects() {
       <div className="title-container">PROJETOS</div>
       <div className="image-container">
         <a href="https://github.com/ThiagoDRangel" target="_blank">
-          <img src={projects} alt="meus projetos" />
+          <img src="test5" alt="meus projetos" />
         </a>
       </div>
     </section>

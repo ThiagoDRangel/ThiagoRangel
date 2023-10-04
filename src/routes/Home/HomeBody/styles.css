@@ -1,29 +1,10 @@
-main {
+.homebody-container {
+  background-color: var(--color-primary);
   display: flex;
   flex-direction: column;
-
 }
 
-.first-container {
-  background-color: var(--color-bg-primary);
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-main h1 {
-  background-color: var( --color-bg-senary);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  margin-left: 50px;
-  margin-top: 30px;
-  padding: 10px;
-  width: 250px;
-}
-
-main .title {
+.title {
   color: var(--color-font-quaternary);
   border-radius: 5px;
   background-color: var(--color-bg-primary);
@@ -41,19 +22,21 @@ main .title {
   align-items: center;
   display: flex;
   background-color: var(--color-bg-secondary);
-  height: 300px;
+  font-size: 14px;
+  height: 350px;
   margin-right: 20%;
   justify-content: space-evenly;
   width: 80%;
 }
 
 .container-first img {
-  height: 200px;
+  height: 160px;
   margin-bottom: 15px;
+  width: 180px;
 }
 
 .container-first p {
-  padding: 20px;
+  padding: 5px;
   font-weight: 700;
 }
 
@@ -66,21 +49,20 @@ main .title {
   align-items: center;
   background-color: var(--color-bg-quaternary);
   display: flex;
-  border-radius: 170px;
-  height: 330px;
+  height: 180px;
   justify-content: space-around;
-  margin-right: 10%;
-  width: 90%;
+  margin-left: 20%;
+  width: 80%;
 }
 
 .container-third {
   align-items: center;
   background-color: var(--color-bg-secondary);
   display: flex;
-  height: 350px;
+  height: 180px;
+  margin-right: 20%;
   justify-content: space-around;
-  margin-left: 10%;
-  width: 90%;
+  width: 80%;
 }
 
 h3 {
@@ -92,13 +74,13 @@ h3 {
 .img-frontend {
   cursor: pointer;
   padding-top: 10px;
-  width: 400px;
+  width: 180px;
 }
 
 .img-backend {
   cursor: pointer;
   padding-top: 10px;
-  width: 400px;
+  width: 180px;
 }
 
 .text-container {
@@ -108,5 +90,5 @@ h3 {
   display: flex;
   flex-direction: column;
   font-weight: 700;
-  width: 420px;
+  width: 200px;
 }
