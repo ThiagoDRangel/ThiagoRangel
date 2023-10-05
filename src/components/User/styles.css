@@ -1,5 +1,5 @@
 .user-container {
-  background-color: var(--color-bg-quaternary);
+  background-color: var(--color-secondary);
   border-radius: 10px;
   margin: 30px 20px;
   padding: 20px;
@@ -10,8 +10,20 @@ li {
   margin-bottom: 5px;
 }
 
-img {
-  width: 200px;
+.image-profile {
+  border-radius: 50%;
+  width: 220px;
+}
+
+.text-container {
+  color: var(--color-secondary);
+  background-color: var(--color-quinary);
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  width: 900px;
 }
 
 .images-contact {
@@ -21,7 +33,7 @@ img {
 }
 
 .personal-infos {
-  background-color: var(--color-bg-tertiary);
+  background-color: var(--color-quaternary);
   border-radius: 10px;
   font-size: 18px;
   font-weight: 400;
@@ -37,19 +49,17 @@ img {
 }
 
 .contact-container li {
-  background-color: var(--color-bg-senary);
   border-radius: 50%;
   padding: 15px 0px 0px 17px;
   width: 130px;
 }
 
 .contact-container li:hover {
-  background-color: var(--color-bg-quinary);
   cursor: pointer;
 }
 
 .background-container {
-  background-color: var(--color-bg-tertiary);
+  background-color: var(--color-senary);
   border-radius: 10px;
   font-size: 18px;
   font-weight: 400;
@@ -57,22 +67,13 @@ img {
   margin-bottom: 20px;
 }
 
+ul li:hover {
+  font-weight: 700;
+}
+
 .strong {
   font-weight: 700;
   margin-bottom: 10px;
-}
-
-span li {
-  color: var(--color-font-primary);
-  background-color: var(--color-bg-quaternary);
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 20px;
-}
-
-ul li:hover {
-  font-weight: 700;
 }
 
 @media (max-width: 550px) {

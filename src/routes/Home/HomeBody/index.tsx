@@ -20,7 +20,7 @@ function HomeBody() {
           <li>Pensamento crítico e analítico.</li>
         </ul>
       </section>
-      <section className="container-second">Desenvolvedor para contratar
+      <section className="container-second">Contratar
       </section>
       <Footer />
     </main>

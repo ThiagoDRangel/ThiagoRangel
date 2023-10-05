@@ -19,9 +19,11 @@ function HeaderMenu() {
             <div className="bar" />
           </div>
           <ul className={`menu ${menuOpen ? 'open' : ''}`}>
-            <li><a href="/" className="icon">HOME</a></li>
+            <Link to="/home">
+              <li className="icon">HOME</li>
+            </Link>
             <Link to="profile">
-              <li><a href="profile" className="icon">ABOUT</a></li>
+              <li className="icon">ABOUT</li>
             </Link>
             <li><a href="/contato" className="icon">FRONTEND</a></li>
             <li><a href="/contato" className="icon">BACKEND</a></li>

@@ -40,7 +40,7 @@ function Certificates() {
           return (
             <div key={id} className="render-certificates">
               <div className="name-url-container">
-                <img src={image} alt={issuer} />
+                <img className="image-certificate" src={image} alt={issuer} />
                 <p>{name}</p>
                 <a href={name}><p>{url}</p></a>
                 <p className="format-stacks">{filterStacks.toUpperCase()}</p>

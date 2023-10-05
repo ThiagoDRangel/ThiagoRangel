@@ -9,7 +9,7 @@ function User() {
   return (
     <main className="user-container">
       <form action="">
-        <ul className="personal-infos">
+        <section className="personal-infos">
           <div className="contact-container">
             <li>
               <a href="https://api.whatsapp.com/send?phone=22998720889&text=Olá Thiago" target="_blank">
@@ -29,14 +29,16 @@ function User() {
                   />
               </a>
             </li>
-            <img src={profile} alt="foto" />
+            <div className="image-profile-container">
+              <img className="image-profile" src={profile} alt="foto" />
+            </div>
           </div>
-          <span>
-            <li className="text-container">{PERFIL_TEXT}</li>
-          </span>
-        </ul>
+          <div className="text-container">
+            <p>{PERFIL_TEXT}</p>
+          </div>
+        </section>
         <ul className="background-container">
-          <li className="strong">Formação Acadêmica:</li>
+          <p className="strong">Formação Acadêmica:</p>
           <li>Técnico em Informática - 2014</li>
           <li>Engenharia Civil - 2021</li>
           <li>MBA em Marketing Estratégico e Digital - 2022</li>
@@ -46,12 +48,12 @@ function User() {
           <li>AWS re/start - 2023</li>
         </ul>
         <ul className="background-container">
-          <li className="strong">Experiência Profissional:</li>
+          <p className="strong">Experiência Profissional:</p>
           <li>Gestão do sistema educacional | 2011 - 2013</li>
           <li>Tarefas administrativas | 2014 - 2021</li>
         </ul>
         <ul className="background-container">
-          <li className="strong">Habilidades Técnicas:</li>
+          <p className="strong">Habilidades Técnicas:</p>
           <li>Docker</li>
           <li>Git</li>
           <li>Java</li>
@@ -64,7 +66,7 @@ function User() {
           <li>TypeScript</li>
         </ul>
         <ul className="background-container">
-          <li className="strong">Cursos de expecialização:</li>
+          <p className="strong">Cursos de expecialização:</p>
           <li>Java Sprint Ultimate | Nélio Alves</li>
           <li>C# | Udemy</li>
           <li>Java | Nélio Alves</li>
