@@ -9,8 +9,9 @@ header {
 
 img {
   margin: 40px;
-  width: 100px;
+  width: 80px;
 }
+
 @media (max-width: 800px) {
   
 }

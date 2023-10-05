@@ -5,7 +5,7 @@ import './styles.css';
 function Header() {
   return (
     <header className="header-container">
-      <div><img src={avatar} alt="profile" /></div>
+      <a href="https://www.linkedin.com/in/thiagodrangel" target="_blank"><img src={avatar} alt="profile" /></a>
       <HeaderMenu />
     </header>
   );

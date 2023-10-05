@@ -6,7 +6,7 @@ function HomeBody() {
   return (
     <main>
       <section className="homebody-container">
-        <div className="title"><p>Soluções para negócios e empresas</p></div>
+        <div className="title"><p>Soluções para <strong>empresas</strong>e negócios</p></div>
       </section>
       <section className="container-first">
         <ul>
@@ -20,9 +20,8 @@ function HomeBody() {
           <li>Pensamento crítico e analítico.</li>
         </ul>
       </section>
-      
-      <p>Principais projetos</p>
-          
+      <section className="container-second">Desenvolvedor para contratar
+      </section>
       <Footer />
     </main>
   );
