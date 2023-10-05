@@ -1,0 +1,39 @@
+.first-container-front {
+  margin-top: 100px;
+}
+
+.second-container {
+  display: flex;
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 20px;
+  justify-content: center;
+  margin: 0px 200px;
+  text-align: center;
+}
+
+.project-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.info-container {
+  align-items: center;
+  background-color: var(--color-primary);
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.image-product {
+  height: 250px;
+  margin: unset;
+  width: 500px;
+}
+
+.image-product:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.first-container-back {
+  margin-top: 100px;
+}
+
+.second-container {
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 10px;
+  margin: 0px 200px;
+  text-align: center;
+}
+
+.project-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image-product {
+  height: 250px;
+  margin: unset;
+  width: 500px;
+}
+
+.info-container {
+  align-items: center;
+  background-color: var(--color-primary);
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}

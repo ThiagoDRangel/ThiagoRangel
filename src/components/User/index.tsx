@@ -1,7 +1,7 @@
 import { PERFIL_TEXT } from '../../utils/system';
-import profile from '../../assets/images/profile.jpeg';
-import email from '../../assets/images/email.jpg';
-import whatsapp from '../../assets/images/whatsapp.jpg';
+import profile from '../../assets/images/new-profile.png';
+import email from '../../assets/images/email.png';
+import whatsapp from '../../assets/images/whatsapp.png';
 import './styles.css';
 
 function User() {

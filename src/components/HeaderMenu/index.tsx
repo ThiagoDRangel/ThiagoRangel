@@ -25,9 +25,15 @@ function HeaderMenu() {
             <Link to="profile">
               <li className="icon">ABOUT</li>
             </Link>
-            <li><a href="/contato" className="icon">FRONTEND</a></li>
-            <li><a href="/contato" className="icon">BACKEND</a></li>
-            <li className="text-color"><a href="https://github.com/ThiagoDRangel" target="_blank" className="icon">GITHUB</a></li>
+            <Link to="frontend">
+              <li className="icon">FRONTEND</li>
+            </Link>
+            <Link to="backend">
+              <li className="icon">BACKEND</li>
+            </Link>
+            <li className="text-color">
+              <a href="https://github.com/ThiagoDRangel" target="_blank" className="icon">GITHUB</a>
+            </li>
           </ul>
         </nav>
       </header>
