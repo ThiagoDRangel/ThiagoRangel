@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:wght@200;400;500;700&display=swap');
 
 :root {
-    --color-primary: #a460f9;
-    --color-secondary: #181818;
-    --color-tertiary: #ffffff;
-    --color-quaternary: #252525;
+    --color-primary: #333333;
+    --color-secondary: #ffffff;
+    --color-tertiary: #d4af37;
+    --color-quaternary: #003366;
     --color-quinary: #f1f1f1;
     --color-senary: #8c6eca;
 }
@@ -22,7 +22,10 @@ a:hover {
     color: unset;
 }
 
-html,
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
 body {
-    background-color: var(--color-bg-tertiary);
+    background-color: var(--color-secondary);
 }

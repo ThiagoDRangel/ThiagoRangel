@@ -4,80 +4,29 @@ import './styles.css';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="container-footer">
       <div className="technologies-list">
         <ul className="icon-list">
           <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faReact}
-                size="4x"
-                spin
-                fixedWidth
-                pull="left"
-              />
-            </div>
+            <FontAwesomeIcon icon={faReact} size="10x" className="icon" />
           </li>
           <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faGithub}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
+            <FontAwesomeIcon icon={faGithub} size="6x" className="icon" />
           </li>
           <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faJs}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
+            <FontAwesomeIcon icon={faJs} size="6x" className="icon" />
           </li>
           <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faJava}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
+            <FontAwesomeIcon icon={faJava} size="6x" className="icon" />
           </li>
           <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faHtml5}
-                size="4x"
-                fixedWidth
-                pull="left"
-                spinReverse
-              />
-            </div>
+            <FontAwesomeIcon icon={faHtml5} size="6x" className="icon" />
           </li>
           <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faPython}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
+            <FontAwesomeIcon icon={faPython} size="6x" className="icon" />
           </li>
           <li>
-            <div className="icon-wrapper">
-              <FontAwesomeIcon
-                icon={faDocker}
-                size="4x"
-                fixedWidth
-                pull="left"
-              />
-            </div>
+            <FontAwesomeIcon icon={faDocker} size="6x" className="icon" />
           </li>
         </ul>
       </div>
@@ -86,4 +35,3 @@ function Footer() {
 }
 
 export default Footer;
-

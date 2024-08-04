@@ -5,35 +5,36 @@
 }
 
 .title {
-  color: var(--color-font-quaternary);
-  border-radius: 5px;
-  display: flex;
+  color: var(--color-secondary);
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   justify-content: center;
-  padding: 10px 10px;
-  margin-left: 100px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  width: 300px;
+  padding: 1rem;
+  margin-left: 12rem;
+  margin-bottom: 2.2rem;
+  margin-top: 2rem;
+  width: 30rem;
 }
 
 .container-first {
   align-items: center;
-  background-color: var(--color-quinary);
+  background-color: var(--color-senary);
   display: flex;
-  font-size: 14px;
-  height: 300px;
+  font-size: 1.4rem;
+  height: 30rem;
   justify-content: flex-start;
 }
 
 .container-first p {
   padding: 5px;
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: 700;
-  margin-left: 120px;
+  margin-left: 12rem;
 }
 
 .container-first li {
+  font-size: 1.5rem;
   margin-left: 160px;
   list-style-type: square;
 }
@@ -54,4 +55,80 @@ strong {
   color: var(--color-quinary);
   height: 90px;
   margin-bottom: 200px;
+}
+
+@media (max-width:600px) {
+  .title {
+    font-size: 1.2rem;
+    margin-left: 6rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .container-first {
+    height: 25rem;
+  }
+
+  .container-first p {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    margin-left: 6rem;
+  }
+  
+  .container-first li {
+    font-size: 1.4rem;
+    margin-left: 12rem;
+  }
+
+  .container-second {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width:480px) {
+  .title {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .container-first p {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+  
+  .container-first li {
+    font-size: 1.3rem;
+    margin-left: 8rem;
+  }
+}
+
+@media (max-width:320px) {
+  .title {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .container-first {
+    height: 18rem;
+  }
+
+  .container-first p {
+    padding: 0;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .container-first li {
+    font-size: 0.8rem;
+    margin-left: 5rem;
+  }
+
+  .container-second {
+    margin-bottom: 5rem;
+  }
 }

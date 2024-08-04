@@ -19,19 +19,19 @@ function HeaderMenu() {
             <div className="bar" />
           </div>
           <ul className={`menu ${menuOpen ? 'open' : ''}`}>
-            <Link to="/home">
-              <li className="icon">HOME</li>
-            </Link>
-            <Link to="profile">
-              <li className="icon">ABOUT</li>
-            </Link>
-            <Link to="frontend">
-              <li className="icon">FRONTEND</li>
-            </Link>
-            <Link to="backend">
-              <li className="icon">BACKEND</li>
-            </Link>
-            <li className="text-color">
+            <li className="menu-item">
+              <Link to="/home" className="icon">HOME</Link>
+            </li>
+            <li className="menu-item">
+              <Link to="/profile" className="icon">ABOUT</Link>
+            </li>
+            <li className="menu-item">
+              <Link to="/frontend" className="icon">FRONTEND</Link>
+            </li>
+            <li className="menu-item">
+              <Link to="/backend" className="icon">BACKEND</Link>
+            </li>
+            <li className="menu-item text-color">
               <a href="https://github.com/ThiagoDRangel" target="_blank" className="icon">GITHUB</a>
             </li>
           </ul>

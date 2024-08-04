@@ -1,13 +1,72 @@
-header {
-    background-color: var(--color-quaternary);
+.header-container {
+  align-items: center;
+  display: flex;
+  background-color: var(--color-secondary);
+  justify-content: center;
+  height: 10rem;
 }
 
 .header-container {
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
 img {
   margin: 40px;
+  padding: 0.2rem;
   width: 80px;
+}
+
+.avatar-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.avatar-link {
+  display: inline-block;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  margin: 40px;
+  padding: 0.2rem;
+}
+
+.hover-message {
+  display: none;
+  position: absolute;
+  left: 12rem;
+  background-color: var(--color-quaternary);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  transition: opacity 0.3s;
+}
+
+.avatar-container:hover .hover-message {
+  display: block;
+  opacity: 1;
+}
+
+.avatar-container:hover .avatar {
+  transform: scale(1.1);
+}
+
+@media (max-width:600px) {}
+
+@media (max-width:480px) {}
+
+@media (max-width:320px) {
+  .avatar {
+    width: 6rem;
+    height: 6rem;
+    margin-left: 3rem;
+  }
 }
