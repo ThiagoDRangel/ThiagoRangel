@@ -1,5 +1,5 @@
-import frontONe from '../../../../assets/projects/front_01.png';
-import frontTwo from '../../../../assets/projects/front_02.png';
+import frontONe from '../../assets/projects/front_01.png';
+import frontTwo from '../../assets/projects/front_02.png';
 import './styles.css';
 
 function Frontend() {

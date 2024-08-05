@@ -1,5 +1,5 @@
-import Certificates from "../../../../components/Certificates";
-import User from "../../../../components/User";
+import Certificates from "../../components/Certificates";
+import User from "../../components/User";
 
 function Profile() {
 

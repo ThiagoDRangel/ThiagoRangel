@@ -1,8 +1,8 @@
 import './styles.css';
-import backOne from '../../../../assets/projects/back_01.png';
-import backTwo from '../../../../assets/projects/back_02.png';
-import backThree from '../../../../assets/projects/back_03.png';
-import backFour from '../../../../assets/projects/back_04.png';
+import backOne from '../../assets/projects/back_01.png';
+import backTwo from '../../assets/projects/back_02.png';
+import backThree from '../../assets/projects/back_03.png';
+import backFour from '../../assets/projects/back_04.png';
 
 function Backend() {
   return (

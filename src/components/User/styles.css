@@ -15,9 +15,16 @@ li {
   width: 220px;
 }
 
+.image-profile-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .text-container {
   color: var(--color-secondary);
-  background-color: var(--color-quinary);
+  background-color: var(--color-senary);
   border-radius: 10px;
   padding: 20px;
   position: relative;
@@ -72,8 +79,27 @@ ul li:hover {
 }
 
 .strong {
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 10px;
+}
+
+.download-button {
+  background-color: var(--color-senary);
+  border: none;
+  border-radius: 5px;
+  color: var(--color-secondary);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  height: 6rem;
+  padding: 1.5rem 2.5rem;
+}
+
+.title-containers {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
 }
 
 @media (max-width: 550px) {

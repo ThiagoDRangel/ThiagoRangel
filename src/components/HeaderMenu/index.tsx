@@ -23,13 +23,13 @@ function HeaderMenu() {
               <Link to="/home" className="icon">HOME</Link>
             </li>
             <li className="menu-item">
-              <Link to="/profile" className="icon">ABOUT</Link>
+              <Link to="profile" className="icon">ABOUT</Link>
             </li>
             <li className="menu-item">
-              <Link to="/frontend" className="icon">FRONTEND</Link>
+              <Link to="frontend" className="icon">FRONTEND</Link>
             </li>
             <li className="menu-item">
-              <Link to="/backend" className="icon">BACKEND</Link>
+              <Link to="backend" className="icon">BACKEND</Link>
             </li>
             <li className="menu-item text-color">
               <a href="https://github.com/ThiagoDRangel" target="_blank" className="icon">GITHUB</a>
