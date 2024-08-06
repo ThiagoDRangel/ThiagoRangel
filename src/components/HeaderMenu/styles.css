@@ -116,11 +116,25 @@ nav ul li {
   }
 
   nav ul li {
-    margin: 0 1rem;
+    margin: 0 0.6rem;
   }
 
   .icon {
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:400px) {
+  .text-color {
+    margin-right: 0.5rem;
+  }
+
+  nav ul li {
+    margin: 0 0.5rem;
+  }
+
+  .icon {
+    font-size: 0.9rem;
   }
 }
 
