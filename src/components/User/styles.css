@@ -219,7 +219,7 @@ ul li:hover {
 
   .personal-infos {
     margin-left: 0;
-    width: 55rem;
+    width: 46rem;
   }
 
   .image-profile {
@@ -243,7 +243,7 @@ ul li:hover {
 
   .text-container {
     font-size: 1.4rem;
-    width: 50rem;
+    width: 42rem;
   }
 
   .download-button {
@@ -265,14 +265,14 @@ ul li:hover {
 
   .background-container {
     font-size: 1.4rem;
-    width: 55rem;
+    width: 46rem;
   }
 }
 
 @media (max-width:480px) {
   .personal-infos {
     margin-left: 0;
-    width: 44rem;
+    width: 35rem;
   }
 
   .images-contact {
@@ -287,12 +287,12 @@ ul li:hover {
 
   .text-container {
     font-size: 1.2rem;
-    width: 40rem;
+    width: 31rem;
   }
 
   .background-container {
     font-size: 1.2rem;
-    width: 44rem;
+    width: 35rem;
   }
 
   .strong {
