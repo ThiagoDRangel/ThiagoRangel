@@ -231,8 +231,8 @@ ul li:hover {
   .contact-container {
     align-items: center;
     display: flex;
-    justify-content: flex-end;
-    padding: 1rem;
+    justify-content: center;
+    padding: 0;
   }
 
   .images-contact {
@@ -280,13 +280,17 @@ ul li:hover {
     width: 6rem;
   }
 
+  .contact-container {
+    margin-left: 4rem;
+  }
+
   .image-profile {
     margin-bottom: 0;
-    width: 12rem;
+    width: 11rem;
   }
 
   .text-container {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 31rem;
   }
 
@@ -314,10 +318,14 @@ ul li:hover {
     width: 5rem;
   }
 
+  .contact-container {
+    margin-left: 2rem;
+  }
+
   .image-profile {
     margin-right: 0;
     margin-bottom: 0.5rem;
-    width: 12rem;
+    width: 10rem;
   }
 
   .text-container {
@@ -332,7 +340,7 @@ ul li:hover {
 
   .download-button {
     font-size: 0.8rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
     height: 3rem;
     width: 6rem;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
