@@ -1,3 +1,15 @@
+.user-container-profile {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.personal-infos {
+  margin-top: 2rem;
+  width: 180rem;
+}
+
 .user-container {
   background-color: var(--color-secondary);
   border-radius: 10px;
@@ -40,8 +52,10 @@ li {
 }
 
 .personal-infos {
+  display: flex;
   background-color: var(--color-quaternary);
   border-radius: 10px;
+  flex-direction: column;
   font-size: 18px;
   font-weight: 400;
   padding: 20px;
@@ -102,6 +116,206 @@ ul li:hover {
   color: white;
 }
 
-@media (max-width: 550px) {
+@media (max-width:1281px) {
+  .personal-infos {
+    width: 85rem;
+  }
 
+  .background-container {
+    font-size: 1.5rem;
+  }
+
+  .image-profile {
+    width: 15rem;
+  }
+
+  .images-contact {
+    width: 7rem;
+  }
+  
+  .text-container {
+    border-radius: 10px;
+    padding: 2rem;
+    font-size: 1.4rem;
+    width: 81rem;
+  }
+
+  .download-button {
+    font-size: 1.4rem;
+    height: 5rem;
+    padding: 1.5rem 2.5rem;
+  }
+
+  .download-button {
+    margin-right: 4rem;
+  }
+}
+
+@media (max-width:1025px) {
+  .personal-infos {
+    width: 60rem;
+  }
+
+  .text-container {
+    width: 56rem;
+  }
+
+  .download-button {
+    margin-right: 4rem;
+  }
+}
+
+@media (max-width:801px) {
+  .personal-infos {
+    margin-left: 0;
+    width: 48rem;
+  }
+
+  .image-profile {
+    margin-bottom: 1rem;
+    width: 14rem;
+  }
+
+  .contact-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .images-contact {
+    margin: 0;
+    width: 6rem;
+  }
+
+  .text-container {
+    font-size: 1.2rem;
+    width: 45rem;
+  }
+
+  .download-button {
+    font-size: 1rem;
+    margin-right: 4rem;
+    height: 4rem;
+    width: 8rem;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+  }
+
+  .strong {
+    font-size: 1.5rem;
+  }
+
+  .title-containers {
+    font-size: 1.2rem;
+  }
+
+  .background-container {
+    font-size: 0.9rem;
+    width: 48rem;
+  }
+}
+
+@media (max-width:600px) {
+
+  .personal-infos {
+    margin-left: 0;
+    width: 45rem;
+  }
+
+  .image-profile {
+    margin-bottom: 1rem;
+    width: 12rem;
+  }
+
+  .contact-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .images-contact {
+    margin: 0;
+    padding: 1rem;
+    width: 7rem;
+  }
+
+  .text-container {
+    font-size: 1.2rem;
+    width: 40rem;
+  }
+
+  .download-button {
+    font-size: 1rem;
+    margin-right: 4rem;
+    height: 4rem;
+    width: 8rem;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+  }
+
+  .strong {
+    font-size: 1.5rem;
+  }
+
+  .title-containers {
+    font-size: 1.2rem;
+  }
+
+  .background-container {
+    font-size: 0.9rem;
+    width: 45rem;
+  }
+}
+
+@media (max-width:480px) {
+  .personal-infos {
+    margin-left: 0;
+    width: 26rem;
+  }
+
+  .images-contact {
+    margin-right: 0;
+    width: 5rem;
+  }
+
+  .image-profile {
+    margin-bottom: 1rem;
+    width: 10rem;
+  }
+
+  .text-container {
+    font-size: 0.8rem;
+    width: 22rem;
+  }
+
+  .background-container {
+    font-size: 0.8rem;
+    width: 26rem;
+  }
+}
+
+@media (max-width:320px) {
+  .personal-infos {
+    width: 25rem;
+  }
+
+  .images-contact {
+    margin-right: 0;
+    width: 5rem;
+  }
+
+  .image-profile {
+    margin-bottom: 1rem;
+    width: 9rem;
+  }
+
+  .text-container {
+    font-size: 0.8rem;
+    width: 21rem;
+  }
+
+  .background-container {
+    font-size: 0.8rem;
+    width: 25rem;
+  }
 }

@@ -7,7 +7,7 @@ import pdfFile from '../../data/thiagodrangel.pdf'; // Importe o PDF
 
 function User() {
   return (
-    <main className="user-container">
+    <main className="user-container-profile">
       <form action="">
         <section className="personal-infos">
           <div className="contact-container">

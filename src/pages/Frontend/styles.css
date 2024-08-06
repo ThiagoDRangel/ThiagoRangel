@@ -1,5 +1,5 @@
 .first-container-front {
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 
 .second-container {
@@ -37,3 +37,47 @@
 .image-product:hover {
   cursor: pointer;
 }
+
+@media (max-width:1281px) {
+  .first-container-front {
+    margin-top: 10rem;
+  }
+  
+  .second-container {
+    margin: 0rem 10rem;
+  }
+  
+  .project-container {
+    margin-top: 5rem;
+  }
+  
+  .info-container {
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .image-product {
+    height: 250px;
+    margin: unset;
+    width: 500px;
+  }
+  
+  .image-product:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width:1025px) {}
+
+@media (max-width:801px) {}
+
+@media (max-width:600px) {}
+
+@media (max-width:480px) {}
+
+@media (max-width:320px) {}

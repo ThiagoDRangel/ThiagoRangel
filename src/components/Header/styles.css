@@ -29,8 +29,6 @@ img {
 }
 
 .avatar {
-  width: 80px;
-  height: 80px;
   border-radius: 50%;
   transition: transform 0.3s;
   margin: 40px;
@@ -59,14 +57,47 @@ img {
   transform: scale(1.1);
 }
 
-@media (max-width:600px) {}
+@media (max-width:1281px) {
+  .header-container {
+    height: 10rem;
+  }
 
-@media (max-width:480px) {}
+  img {
+    margin-left: 0;
+  }
+}
+
+@media (max-width:1025px) {
+}
+
+@media (max-width:801px) {
+  .header-container {
+    justify-content: center;
+  }
+
+  .avatar {
+    margin-left: 2rem;
+    width: 6rem;
+  }
+}
+
+@media (max-width:600px) {  
+  .avatar {
+    margin-left: 1rem;
+    width: 6rem;
+  }
+}
+
+@media (max-width:480px) {
+  .avatar {
+    margin-left: 1rem;
+    width: 5rem;
+  }
+}
 
 @media (max-width:320px) {
   .avatar {
-    width: 6rem;
-    height: 6rem;
-    margin-left: 3rem;
+    margin-left: 0rem;
+    width: 5rem;
   }
 }
