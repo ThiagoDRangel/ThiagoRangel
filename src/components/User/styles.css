@@ -219,18 +219,20 @@ ul li:hover {
 
   .personal-infos {
     margin-left: 0;
-    width: 45rem;
+    width: 55rem;
   }
 
   .image-profile {
     margin-bottom: 1rem;
+    padding: 1rem;
     width: 12rem;
   }
 
   .contact-container {
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    padding: 1rem;
   }
 
   .images-contact {
@@ -240,16 +242,16 @@ ul li:hover {
   }
 
   .text-container {
-    font-size: 1.2rem;
-    width: 40rem;
+    font-size: 1.4rem;
+    width: 50rem;
   }
 
   .download-button {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-right: 4rem;
     height: 4rem;
-    width: 8rem;
-    padding: 1rem 1rem 1rem 1rem;
+    width: 7rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     text-align: center;
   }
 
@@ -262,41 +264,49 @@ ul li:hover {
   }
 
   .background-container {
-    font-size: 0.9rem;
-    width: 45rem;
+    font-size: 1.4rem;
+    width: 55rem;
   }
 }
 
 @media (max-width:480px) {
   .personal-infos {
     margin-left: 0;
-    width: 26rem;
+    width: 44rem;
   }
 
   .images-contact {
     margin-right: 0;
-    width: 5rem;
+    width: 6rem;
   }
 
   .image-profile {
-    margin-bottom: 1rem;
-    width: 10rem;
+    margin-bottom: 0;
+    width: 12rem;
   }
 
   .text-container {
-    font-size: 0.8rem;
-    width: 22rem;
+    font-size: 1.2rem;
+    width: 40rem;
   }
 
   .background-container {
-    font-size: 0.8rem;
-    width: 26rem;
+    font-size: 1.2rem;
+    width: 44rem;
+  }
+
+  .strong {
+    font-size: 1.3rem;
+  }
+
+  .title-containers {
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width:320px) {
   .personal-infos {
-    width: 25rem;
+    width: 28rem;
   }
 
   .images-contact {
@@ -305,17 +315,34 @@ ul li:hover {
   }
 
   .image-profile {
-    margin-bottom: 1rem;
-    width: 9rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    width: 12rem;
   }
 
   .text-container {
     font-size: 0.8rem;
-    width: 21rem;
+    width: 24rem;
   }
 
   .background-container {
     font-size: 0.8rem;
-    width: 25rem;
+    width: 28rem;
+  }
+
+  .download-button {
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 6rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .strong {
+    font-size: 1rem;
+  }
+
+  .title-containers {
+    font-size: 1rem;
   }
 }
